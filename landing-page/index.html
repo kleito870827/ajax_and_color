@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+      <title>web desing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <nav>
+   <div class="nav-wrapper purple darken-3">
+     <a href="#!" class="brand-logo purple-text text-lighten-5">Logo</a>
+     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">reorder</i></a>
+     <ul class="right hide-on-med-and-down">
+       <li><a href="sass.html">Sass</a></li>
+       <li><a href="badges.html">Components</a></li>
+       <li><a href="collapsible.html">Javascript</a></li>
+       <li><a href="mobile.html">Mobile</a></li>
+     </ul>
+     <ul class="side-nav" id="mobile-demo">
+       <li>
+         <div class="row">
+           <div class="col s12 m6">
+             <a href="sass.html">Sass</a>
+           </div>
+           <div class="col s12 m6">
+             <i class="material-icons">reorder</i>
+           </div>
+         </div>
+       </li>
+       <li><a href="badges.html">Components</a></li>
+       <li><a href="collapsible.html">Javascript</a></li>
+       <li><a href="mobile.html">Mobile</a></li>
+     </ul>
+   </div>
+ </nav>
+ <div class="container">
+ <div class="row">
+        <div class="col s12 m12">
+          <div class="card">
+            <div class="card-image">
+              <img src="http://i.telegraph.co.uk/multimedia/archive/03543/Narutos_selfie_344_3543114b.jpg">
+              <span class="card-title">sdsfsdf</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+               <a class="btn waves-effect blue darken-3" onclick="Materialize.toast('I am a toast', 4000)">Toast!</a>
+               <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+                 <a class="btn-floating btn-large red">
+                   <i class="large material-icons">subject</i>
+                 </a>
+                 <ul>
+                   <li><a class="btn-floating red"><i class="material-icons">settings_cell</i></a></li>
+                   <li><a class="btn-floating yellow darken-1"><i class="material-icons">theaters</i></a></li>
+                   <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                   <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                 </ul>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <ul class="collapsible" data-collapsible="accordion">
+     <li>
+       <div class="collapsible-header"><i class="material-icons">thumb_up</i>First</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+     <li>
+       <div class="collapsible-header"><i class="material-icons">thumb_down</i>Second</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+     <li>
+       <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+   </ul>
+      </div>
+      <div class="col s12 m4 card">
+        <div class="card-image">
+          <img src="https://static-s.aa-cdn.net/img/gp/20600003338704/85J6NFZ6YcwW-noU85vdhZJanHdQLW0JHcXfSCockNroR6EscdeSANrOvdsiqOa0kQ=w300?v=1" />
+        </div>
+
+      </div>
+      <div class="col s12 m4">
+        <ul class="collapsible" data-collapsible="accordion">
+     <li>
+       <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+     <li>
+       <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+     <li>
+       <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+       <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+     </li>
+   </ul>
+      </div>
+
+    </div>
+
+
+ <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+<div>
+  <div class="card">
+   <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="https://cdn.theatlantic.com/assets/media/img/photo/2016/02/smithsonian-magazines-2015-photo-co/s01_GeertWeggen/main_900.jpg?1456418926">
+   </div>
+   <div class="card-content">
+     <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+     <p><a href="#">This is a link</a></p>
+   </div>
+   <div class="card-reveal">
+     <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+     <p>Here is some more information about this product that is only revealed once clicked on.</p>
+   </div>
+ </div>
+</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+ <script>
+
+     $(".button-collapse").sideNav();
+ </script>
+
+    </body>
+
+</htm>
